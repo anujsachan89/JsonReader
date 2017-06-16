@@ -20,31 +20,5 @@ public class SearchController {
 		
 		return searchService.searchCities(searchString);
 	}
-		
-    
-    
-    
-    
-    
-    
-    
-   /* public static void main(String[] args) {
-    	
- 	   try {
- 		   String jsonString = readJsonFile("/home/bridgeit/Downloads/citylist.json");
- 		   List<City> examples = readFromJson(jsonString);
- 		   List<City> filteredList = searchFromList(examples, "IN");
- 		   Gson gson = new Gson();
- 		   System.out.println(filteredList.size());
-// 		   System.out.println(gson.toJson(filteredList));
- 		   
- 		   
- 	} catch (Exception e) {
- 		// TODO Auto-generated catch block
- 		e.printStackTrace();
- 	}
-    }
-*/
-   
 }
 

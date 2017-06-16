@@ -69,7 +69,7 @@ public class City {
 	
 	public boolean search(String searchString) {
 		
-		return (name.toUpperCase().contains(searchString.toUpperCase()));
+		return (name.toUpperCase().startsWith(searchString.toUpperCase()));
 		
 	}
 
